@@ -13,7 +13,7 @@ export const products = [
     details: "Specializing in brand identity, digital marketing, and creative campaigns that drive engagement and conversions."
   },
   {
-    title: "BookMySports",
+    title: "Owl Turf",
     description: "Comprehensive sports platform for venue booking, player connections, and score tracking.",
     image: "/bms-300x400.png",
     details: "Revolutionizing sports experiences with seamless booking, community building, and performance analytics."
