@@ -41,10 +41,10 @@ export default function ContactForm() {
   }
 
   return (
-    <div className="rounded-lg bg-white p-10 shadow-lg">
+    <div className="rounded-lg bg-white p-10 shadow-lg text-gray-900">
       <div className="mb-10">
         <h2 className="text-2xl font-bold text-black md:text-3xl">Get a Free Quote</h2>
-        <div className="mt-3 h-1 w-24 bg-red-600"></div>
+        <div className="mt-3 h-1 w-24 bg-gradient-to-r from-[#6A43E7] via-[#7F38E8] to-[#E879F9]"></div>
       </div>
 
       <form onSubmit={handleSubmit} className="space-y-8">
@@ -60,7 +60,7 @@ export default function ContactForm() {
               onChange={handleChange}
               placeholder="John Doe"
               required
-              className="border-gray-300 bg-gray-50 px-4 py-3 focus:border-red-500 focus:ring-red-500"
+              className="border-gray-300 bg-gray-50 px-4 py-3 focus:border-[#7F38E8] focus:ring-[#7F38E8]"
             />
           </div>
           <div className="space-y-3">
@@ -75,7 +75,7 @@ export default function ContactForm() {
               onChange={handleChange}
               placeholder="john@example.com"
               required
-              className="border-gray-300 bg-gray-50 px-4 py-3 focus:border-red-500 focus:ring-red-500"
+              className="border-gray-300 bg-gray-50 px-4 py-3 focus:border-[#7F38E8] focus:ring-[#7F38E8]"
             />
           </div>
         </div>
@@ -91,7 +91,7 @@ export default function ContactForm() {
               value={formData.phone}
               onChange={handleChange}
               placeholder="+1 (555) 000-0000"
-              className="border-gray-300 bg-gray-50 px-4 py-3 focus:border-red-500 focus:ring-red-500"
+              className="border-gray-300 bg-gray-50 px-4 py-3 focus:border-[#7F38E8] focus:ring-[#7F38E8]"
             />
           </div>
           <div className="space-y-3">
@@ -99,7 +99,7 @@ export default function ContactForm() {
               Subject <span className="text-red-600">*</span>
             </label>
             <Select value={formData.subject} onValueChange={handleSubjectChange} required>
-              <SelectTrigger className="border-gray-300 bg-gray-50 px-4 py-3 focus:border-red-500 focus:ring-red-500">
+              <SelectTrigger className="border-gray-300 bg-gray-50 px-4 py-3 focus:border-[#7F38E8] focus:ring-[#7F38E8]">
                 <SelectValue placeholder="Select a subject" />
               </SelectTrigger>
               <SelectContent>
@@ -124,14 +124,14 @@ export default function ContactForm() {
             onChange={handleChange}
             placeholder="Tell us about your project or inquiry..."
             required
-            className="min-h-[180px] border-gray-300 bg-gray-50 px-4 py-3 focus:border-red-500 focus:ring-red-500"
+            className="min-h-[180px] border-gray-300 bg-gray-50 px-4 py-3 focus:border-[#7F38E8] focus:ring-[#7F38E8]"
           />
         </div>
 
         <div className="pt-4">
           <Button
             type="submit"
-            className="rounded-md bg-red-600 px-10 py-3 text-base font-medium transition-all duration-300 hover:bg-red-700 hover:shadow-lg"
+            className="rounded-md bg-gradient-to-r from-[#6A43E7] via-[#7F38E8] to-[#E879F9] sm:inline px-10 py-3 text-base font-medium transition-all duration-300 hover:bg-[#7F38E8]-700 hover:shadow-lg"
           >
             SEND MESSAGE
           </Button>

@@ -13,13 +13,13 @@ export default function ContactInfo() {
     <div className="rounded-lg bg-white p-8 shadow-lg">
       <div className="mb-8">
         <h2 className="text-2xl font-bold text-black md:text-3xl">Contact Information</h2>
-        <div className="mt-2 h-1 w-20 bg-red-600"></div>
+        <div className="mt-2 h-1 w-20 bg-[#7F38E8] text-white"></div>
       </div>
 
       <div className="mb-8 space-y-6">
         <div className="flex items-start">
-          <div className="mr-4 flex h-10 w-10 items-center justify-center rounded-full bg-red-100 text-red-600">
-            <MapPin className="h-5 w-5" />
+          <div className="mr-4 flex h-10 w-10 items-center justify-center rounded-full bg-[#7F38E8] text-white">
+            <MapPin className="h-5 w-5 " />
           </div>
           <div>
             <h3 className="font-medium text-gray-900">Our Location</h3>
@@ -28,7 +28,7 @@ export default function ContactInfo() {
         </div>
 
         <div className="flex items-start">
-          <div className="mr-4 flex h-10 w-10 items-center justify-center rounded-full bg-red-100 text-red-600">
+          <div className="mr-4 flex h-10 w-10 items-center justify-center rounded-full bg-[#7F38E8] text-white">
             <Phone className="h-5 w-5" />
           </div>
           <div>
@@ -38,7 +38,7 @@ export default function ContactInfo() {
         </div>
 
         <div className="flex items-start">
-          <div className="mr-4 flex h-10 w-10 items-center justify-center rounded-full bg-red-100 text-red-600">
+          <div className="mr-4 flex h-10 w-10 items-center justify-center rounded-full bg-[#7F38E8] text-white">
             <Mail className="h-5 w-5" />
           </div>
           <div>
@@ -48,7 +48,7 @@ export default function ContactInfo() {
         </div>
 
         <div className="flex items-start">
-          <div className="mr-4 flex h-10 w-10 items-center justify-center rounded-full bg-red-100 text-red-600">
+          <div className="mr-4 flex h-10 w-10 items-center justify-center rounded-full bg-[#7F38E8] text-white">
             <Clock className="h-5 w-5" />
           </div>
           <div>
@@ -65,7 +65,7 @@ export default function ContactInfo() {
             href="https://linkedin.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-full bg-gray-100 p-2 text-gray-600 transition-colors hover:bg-red-100 hover:text-red-600"
+            className="rounded-full bg-gray-100 p-2 text-gray-600 transition-colors hover:bg-[#7F38E8] hover:text-white"
           >
             <Linkedin className="h-5 w-5" />
           </Link>
@@ -73,7 +73,7 @@ export default function ContactInfo() {
             href="https://facebook.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-full bg-gray-100 p-2 text-gray-600 transition-colors hover:bg-red-100 hover:text-red-600"
+            className="rounded-full bg-gray-100 p-2 text-gray-600 transition-colors hover:bg-[#7F38E8] hover:text-white"
           >
             <Facebook className="h-5 w-5" />
           </Link>
@@ -81,7 +81,7 @@ export default function ContactInfo() {
             href="https://twitter.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-full bg-gray-100 p-2 text-gray-600 transition-colors hover:bg-red-100 hover:text-red-600"
+            className="rounded-full bg-gray-100 p-2 text-gray-600 transition-colors hover:bg-[#7F38E8] hover:text-white"
           >
             <Twitter className="h-5 w-5" />
           </Link>
@@ -89,7 +89,7 @@ export default function ContactInfo() {
             href="https://instagram.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-full bg-gray-100 p-2 text-gray-600 transition-colors hover:bg-red-100 hover:text-red-600"
+            className="rounded-full bg-gray-100 p-2 text-gray-600 transition-colors hover:bg-[#7F38E8] hover:text-white"
           >
             <Instagram className="h-5 w-5" />
           </Link>

@@ -103,21 +103,21 @@ const teamMembers = {
     {
       name: "Srikar Kudurmalla",
       position: "Head of Engineering",
-      image: "/images/team/",
+      image: "/images/team/srikar.webp",
       bio: "Leads engineering teams and product architecture with a focus on scalability and high performance.",
       social: {
-        linkedin: "https://linkedin.com/in/srikar",
+        linkedin: "https://www.linkedin.com/in/kudurmallasrikar",
         github: "https://github.com/srikar"
       }
     },
     {
-      name: "Mounika",
+      name: "Mounika Siddi",
       position: "Software Development Engineer",
-      image: "/images/team/mounika.png",
+      image: "/images/team/mounikasde1.png",
       bio: "Mounika contributes to core development projects, specializing in scalable and modular frontend/backend systems.",
       social: {
-        linkedin: "https://linkedin.com/in/mounika",
-        github: "https://github.com/mounika"
+        linkedin: "https://www.linkedin.com/in/siddi-mounika",
+        github: "https://github.com/MounikaSiddi"
       }
     },
     {
@@ -166,7 +166,7 @@ const teamMembers = {
       image: "/images/team/sampad_dutta.png",
       bio: "Sampad brings creative excellence, blending aesthetics and functionality into world-class UI/UX designs.",
       social: {
-        linkedin: "https://linkedin.com/in/sampad-dutta",
+        linkedin: "https://www.linkedin.com/in/sampad-dutta-28b1732ba/",
         // github: "https://github.com/sampath"
       }
     }
@@ -324,16 +324,17 @@ const teamMembers = {
         >
           {/* Image Section */}
           <div className="relative h-72 sm:h-80">
-            <Image
-              src={member.image}
-              alt={member.name}
-              fill
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-              className="object-cover transition-transform duration-500 group-hover:scale-105"
-              priority={index < 3}
-              quality={90}
-            />
-          </div>
+  <Image
+    src={member.image}
+    alt={member.name}
+    fill
+    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+    className="object-cover  object-[center_30%] transition-transform duration-500 group-hover:scale-105"
+    priority={index < 3}
+    quality={90}
+  />
+</div>
+
 
           {/* Info Section */}
           <div className="p-5 sm:p-6">
